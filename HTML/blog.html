@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Travel Blog</title>
+    <link rel="icon" href="favicon.jpeg" type="image/jpg">
+</head>
+
+<body
+    style="background-color:lightpink; font-family:Arial, sans-serif; color:#333; text-align:center; margin:0; padding:0;">
+
+    <!-- Header -->
+    <div style="background-color:aliceblue; padding:20px;">
+        <h1 style="margin:0; font-size:2.5em; color:darkgreen        ;">Travel</h1>
+        <nav>
+            <a href="#home" style="color:black; margin:0 10px; text-decoration:none; font-weight:bold;">Home</a> |
+            <a href="#destinations"
+                style="color:black; margin:0 10px; text-decoration:none; font-weight:bold;">Destinations</a> |
+            <a href="#contact" style="color:black; margin:0 10px; text-decoration:none; font-weight:bold;">Contact</a>
+        </nav>
+    </div>
+
+    <!-- Blog Introduction -->
+    <div id="home" style="padding:30px; max-width:800px; margin:auto;">
+        <p>Welcome to my travel blog where I share my exciting journeys around the world!</p>
+        <img src="travel.jpg" alt="Travel Image" width="400">
+    </div>
+
+    <!-- Top 3 Travel Destinations -->
+    <div id="destinations" style="padding:30px; max-width:800px; margin:auto;">
+        <h2>Top 3 Travel Destinations</h2>
+        <table border="1" style="margin:auto; border-collapse:collapse; width:100%;">
+            <tr style="background-color:#e6f2ff;">
+                <th style="padding:10px;">Country</th>
+
+                <th style="padding:10px;">Language</th>
+            </tr>
+            <tr style="background-color:#ffffff;">
+                <td style="padding:10px;">Japan</td>
+
+                <td style="padding:10px;">Japanese</td>
+            </tr>
+            <tr style="background-color:#ffffff;">
+                <td style="padding:10px;">Italy</td>
+
+                <td style="padding:10px;">Italian</td>
+            </tr>
+            <tr style="background-color:#ffffff;">
+                <td style="padding:10px;">Australia</td>
+
+                <td style="padding:10px;">English</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Travel Quote -->
+    <div style="padding:30px;">
+        <blockquote
+            style="font-style:italic; background-color:#f9f9f9; padding:15px; border-left:5px solid #ccc; margin:auto; width:70%;">
+            "TRAVEL , AS MUCH AS YOU CAN , YOU ONLY HAVE ONE LIFE ." – MANNAT DHAMI
+        </blockquote>
+    </div>
+
+    <!-- Trip Video (YouTube Embed) -->
+    <div style="padding:30px;">
+        <h2>My Trip Video</h2>
+        <iframe width="560" height="315" src="https://youtu.be/xLTCivIB4kU?si=vI4FWFbUTIt335MA"
+            title="YouTube travel video" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Background Music -->
+    <audio src="music.mp3" loop autoplay muted></audio>
+
+    <!-- Travel Form -->
+    <div style="padding:30px; max-width:800px; margin:auto;">
+        <h2>Travel Form</h2>
+        <form>
+            Full Name: <input type="text" name="fullname" style="padding:8px; margin:5px;"><br><br>
+
+            Destination Interest:
+            <select name="destination" style="padding:8px; margin:5px;">
+                <option value="japan">Japan</option>
+                <option value="italy">Italy</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+
+            Type of Traveler:<br>
+            <input type="checkbox" name="type" value="solo"> Solo<br>
+            <input type="checkbox" name="type" value="group"> Group<br><br>
+
+            Email ID: <input type="email" name="email" style="padding:8px; margin:5px;"><br><br>
+
+            <input type="submit" value="Submit"
+                style="background-color:#87cefa; border:none; color:white; padding:10px 20px; cursor:pointer; border-radius:5px;">
+        </form>
+    </div>
+
+</body>
+
+</html>
